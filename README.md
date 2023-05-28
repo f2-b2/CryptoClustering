@@ -1,7 +1,7 @@
 # CryptoClustering
 Module 19 Challenge
 
-
+![titlepic](https://github.com/f2-b2/CryptoClustering/assets/118685191/6e2b06b4-fcb4-4fd1-ba26-27da7ec4652c)
 
 ## Instructions
 
@@ -13,12 +13,13 @@ Module 19 Challenge
 
 ### Prepare the Data
 
-  * Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
+  * Use the `StandardScaler()` module from `scikit-learn` to normalize the data from the CSV file.
 
   * Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
     * The first five rows of the scaled DataFrame should appear as follows:
 
+<img width="998" alt="scaled_DataFrame" src="https://github.com/f2-b2/CryptoClustering/assets/118685191/64b9afcb-4078-480a-bd3e-132359d0be18">
 
 ### Find the Best Value for k Using the Original Scaled DataFrame
 
@@ -68,7 +69,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for `
   
     * The first five rows of the PCA DataFrame should appear as follows:
 
-
+<img width="303" alt="PCA_DataFrame" src="https://github.com/f2-b2/CryptoClustering/assets/118685191/66c5e63b-4907-4571-876e-efad16ccb61b">
 
 ### Find the Best Value for k Using the PCA Data
 
